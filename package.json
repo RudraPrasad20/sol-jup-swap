@@ -1,0 +1,19 @@
+{
+  "name": "sol_jup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -b && node --trace-deprecation dist/swap.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.4",
+    "axios": "^1.11.0",
+    "bs58": "^6.0.0"
+  }
+}
